@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ff6600; /* Turuncu renk */
+  }
+  
+  h2 {
+    font-size: 1em;
+    margin-top: 20px;
+    color: #ff6600; /* Turuncu renk */
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #ff6600; /* Turuncu renk */
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-top: 5px;
+    background-color: #ff6600; /* Turuncu renk */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e65c00; /* Daha koyu turuncu */
+  }
+  
+  #site-list {
+    margin-top: 10px;
+  }
+  
+  #site-list input {
+    width: calc(100% - 60px);
+    border: 1px solid #ff6600; /* Turuncu renk */
+    padding: 5px;
+  }
+  
+  #blocked-sites {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #blocked-sites li {
+    margin: 5px 0;
+    color: #333;
+  }
+  
